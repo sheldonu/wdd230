@@ -1,0 +1,47 @@
+header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 10rem;
+    padding-top: 3%;
+    font-family: 'Lora', 'sans-serif';
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5%;
+    text-align: center;
+    font-family: 'Lora', 'sans-serif';
+}
+
+main h2 {
+    height: 10%;
+    padding-top: 15%;
+}
+
+img {
+    width: 60%;
+    border: .5px solid;
+}
+
+h4 {
+    font-size: x-large;
+}
+
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    text-align: center;
+    margin-top: 10%;
+    padding-top: 5%;
+    font-size: large;
+    background-color: black;
+    color: white;
+    font-family: 'Lora', 'sans-serif';
+}
