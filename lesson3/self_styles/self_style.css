@@ -1,0 +1,89 @@
+nav {
+    background-color: darkgray;
+    text-align: center;
+    box-shadow: 0 0 30px black;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lora', 'sans-serif';
+}
+
+nav div {
+    flex: 1 1 auto;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    background-color: gray;
+    color: black;
+}
+
+header {
+    text-align: center;
+    background-color: #254D32;
+    padding: 1rem;
+    font-size: x-large;
+    color: beige;
+    font-family: 'Lora', 'sans-serif';
+}
+
+main {
+    font-family: 'Lora', 'sans-serif';
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    box-shadow: 0 0 10px grey;
+    margin-top: 3rem;
+    justify-content: center;
+}
+
+h3 {
+    text-decoration: underline;
+    background-color: white;
+    box-shadow: 0 0 20px grey;
+}
+
+img {
+    width: 20%;
+}
+
+footer {
+    text-align: center;
+    background-color: #254D32;
+    font-size: large;
+    padding: 1rem;
+    color: beige;
+    font-family: 'Lora', 'sans-serif';
+}
+
+h4 {
+    text-decoration: underline;
+}
+
+ul {
+    text-align: left;
+}
+@media (min-width: 37.5em) {
+    nav {
+        flex-direction: row;
+    }
+
+    nav a {
+        font-size: 1.1rem;
+    }
+
+}
+
+@media (min-width: 48em) {
+    nav a {
+        font-size: 1.3rem;
+    }
+}
