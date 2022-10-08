@@ -1,0 +1,51 @@
+@media only screen and (min-width: 70rem) {
+
+    nav a {
+        font-size: 1.3rem;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .hero {
+        grid-column: 2/3;
+        grid-row: 1/3;
+    }
+
+    .event {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .weather {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .join {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .news {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+
+    .spotlights {
+        grid-column: 3/4;
+        grid-row: 1/4;
+    }
+
+    .upperfooter {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .fleft {
+        justify-content: left;
+    }
+}

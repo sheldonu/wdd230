@@ -1,0 +1,129 @@
+nav {
+    display: block;
+}
+
+nav button {
+    margin: .2rem 3vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #555;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: beige;
+    border-top: 1px solid rgba(0,0,0,0.5);
+}
+
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+
+nav ul li.active a {
+    background-color: rgba(0,0,0,0.2);
+    color: #fff;
+}
+
+nav ul {display: none;}
+nav ul.open {display: block;}
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+
+
+
+nav {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lora', 'sans-serif';
+}
+
+nav div {
+    flex: 1 1 auto;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    background-color:  rgba(0,0,0,0.3);
+    color: beige;
+}
+
+.logo {
+    width: 14%
+}
+
+.upper {
+    display: flex;
+    background-color: #254D32;
+    padding: 1rem;
+    font-size: x-large;
+    color: beige;
+    font-family: 'Lora', 'sans-serif';
+    justify-content: space-between;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header h3 {
+    text-align: center;
+}
+
+.date {
+    text-align: center;
+    font-size: x-large;
+    background-color: #21432d;
+    color: beige;
+
+}
+
+
+
+footer {
+    text-align: center;
+    background-color: #254D32;
+    font-size: large;
+    padding: 1rem;
+    color: beige;
+    font-family: 'Lora', 'sans-serif';
+}
+
+footer .logo {
+    width: 15%;
+}
+
+#lastModified {
+	text-align: center;
+	font-size: smaller;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+main p {
+    height: 100px;
+}
+
