@@ -120,7 +120,7 @@ footer .logo {
 
 main {
     display: grid;
-    grid-template-rows: 1fr 1fr 2fr 2fr 4fr;
+    grid-template-rows: 1fr 1fr 2fr 2fr 4fr 1fr;
     grid-gap: 10px;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -167,9 +167,20 @@ main {
     color: white;
 }
 
+.join {
+    grid-row: 6/7;
+    background-color: #01295F;
+    box-shadow: 0 0 10px #01295F;
+}
 
-
-
+.join p {
+    color: white;
+    text-align: center;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 30px;
+    font-size: large;
+}
 
 .news {
     grid-row: 4/5;
