@@ -170,7 +170,7 @@ main {
 .join {
     grid-row: 6/7;
     background-color: #01295F;
-    box-shadow: 0 0 10px #01295F;
+    box-shadow: 0 0 11px #01295F;
 }
 
 .join p {
