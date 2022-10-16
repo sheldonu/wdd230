@@ -22,38 +22,27 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
 
     .hero {
+        max-width: 100%;
+        height: auto;
         grid-column: 1/4;
         grid-row: 1/2;
+        box-shadow: 0 0 10px #8D9EC6;
     }
 
-    .event {
-        grid-column: 1/4;
-        grid-row: 5/6;
+    .hero h2 {
+        position: absolute;
+        margin-left: 25px;
+        font-size: xx-large;
+        color: #01295F;
+        text-shadow: 0 0 5px #01295F;
     }
 
-    .weather {
-        grid-column: 3/4;
-        grid-row: 5/6;
-    }
-
-    .join {
-        grid-column: 1/4;
-        grid-row: 4/5;
-    }
-
-    .news {
-        grid-column: 1/4;
-        grid-row: 2/3;
-    }
-
-    .spotlights {
-        grid-column: 1/4;
-        grid-row: 3/4;
-    }
-    
     .upperfooter {
         display: flex;
         justify-content: space-around;
@@ -62,4 +51,97 @@
     .fleft {
         justify-content: left;
     }
+
+    .event {
+        grid-column: 1/3;
+        grid-row: 5/6;
+        background-color: #01295F;
+        box-shadow: 0 0 10px #01295F;
+    }
+
+    .weather {
+        grid-column: 3/4;
+        grid-row: 5/6;
+        background-color: #01295F;
+        box-shadow: 0 0 10px #01295F;
+    }
+
+    .sun {
+        font-size: 40px;
+        color: white;
+    }
+
+
+
+
+    .join {
+        grid-column: 1/4;
+        grid-row: 4/5;
+        background-color: #01295F;
+        box-shadow: 0 0 10px #01295F;
+    }
+
+    .join p {
+        color: white;
+        text-align: center;
+        margin-right: 15px;
+        margin-left: 15px;
+        margin-top: 30px;
+        font-size: large;
+    }
+
+    .news {
+        grid-column: 1/4;
+        grid-row: 2/3;
+        background-color: #01295F;
+        box-shadow: 0 0 10px #01295F;
+    }
+
+    .news p {
+        color: white;
+        text-align: center;
+        margin-right: 15px;
+        margin-left: 15px;
+        font-size: large;
+    }
+
+    .spotlights {
+        grid-column: 1/4;
+        grid-row: 3/4;
+        background-color: #01295F;
+        box-shadow: 0 0 10px #01295F;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .one {
+        grid-row: 1/2;
+    }
+
+    .two {
+        grid-row: 2/3;
+    }
+
+    .three {
+        grid-row: 3/4;
+    }
+
+    h3 {
+        text-align: center;
+        color: yellow;
+        text-shadow: 0 0 10px yellow;
+    }
+
+    #join {
+        color: white;
+        background-color: #50A050;
+        text-shadow: none;
+        justify-content: center;
+        margin-left: 15px;
+        margin-right: 15px;
+        border-radius: 10px;
+        padding-top: 15px;
+        height: 35px;
+    }
+    
     }
