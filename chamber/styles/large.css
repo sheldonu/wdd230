@@ -46,12 +46,22 @@
     }
 
     .sun {
-        font-size: 70px;
+        font-size: 50px;
         color: white;
+        text-align: center;
     }
 
+    .speed {
+        color: white;
+        font-size: large;
+        text-align: center;
+    }
 
-
+    .chill {
+        color: white;
+        font-size: large;
+        text-align: center;
+    }
 
     .join {
         grid-column: 1/2;
@@ -131,5 +141,9 @@
         border-radius: 10px;
         padding-top: 15px;
         height: 35px;
+    }
+
+    hr {
+        width: 90%;
     }
 }
