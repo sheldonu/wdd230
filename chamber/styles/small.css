@@ -1,3 +1,7 @@
+body {
+    background-color: grey;
+}
+
 nav {
     display: block;
 }
@@ -232,4 +236,32 @@ h3 {
     border-radius: 10px;
     padding-top: 15px;
     height: 35px;
+
+}
+
+img[data-src] {
+    filter: blur(0.2em);
+}
+
+picture {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+.discoverpics {
+    grid-row: 2/7;
+    text-align: center;
+    background-color: #01295F;
+    box-shadow: 0 0 10px #01295F;
+    color: beige;
+}
+
+.statistics {
+    grid-row: 1/2;
+    background-color: #01295F;
+    box-shadow: 0 0 10px #01295F;
+    margin-bottom: 100px;
+    color: beige;
+    text-align: center;
+    font-size: larger;
 }
