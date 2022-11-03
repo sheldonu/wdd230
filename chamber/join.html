@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Discover</title>
+    <title>Join</title>
     <link rel="stylesheet" href="./styles/small.css">
     <link rel="stylesheet" href="./styles/medium.css">
     <link rel="stylesheet" href="./styles/large.css">
@@ -31,21 +31,43 @@
         <div class="date"></div>
     </header>
     <main>
-        <div class="statistics">
-            <h1>Statistics about Mesa</h1>
-            <ul>
-                <li>There are more than a half million people who live in Mesa, Arizona</li>
-                <li>Each household in Mesa has an average size of 2.6</li>
-                <li>Mesa employs almost 250k people today</li>
-            </ul>
-        </div>
-        <div class="discoverpics">
-            <picture><p>There are many trails to explore and discover in mesa</p><img src="./images/instagram.png" data-src="./images/hike-pic.jpg" alt="hike pic"></picture>
-            <picture><p>Make sure to visit our beautiful golf courses</p><img src="./images/instagram.png" data-src="./images/golf-pic.jpg" alt="golf pic"></picture>
-            <picture><p>You don't want to miss all the amazing art galleries</p><img src="./images/instagram.png" data-src="./images/art-center.jpg" alt="art center pic"></picture>           
-            <picture><p>Newly added public transportation - Lightrail</p><img src="./images/instagram.png" data-src="./images/light-rail.jpg" alt="lightrail pic"></picture>
-            <picture><p>Lots of unique parks all around</p><img src="./images/instagram.png" data-src="./images/park-pic.jpg" alt="park pic"></picture>
-        </div>
+        <h1>Joining Mesa Commerce</h1>
+            <form method="get" action="thankyou.html">
+                <fieldset>
+                    <label class="top">First Name* <input type="text" name="fname" required></label>
+                    <label class="top">Last Name* <input type="text" name="lname" required></label>
+                    <label class="top">Business Position <input type="text" name="position"></label>
+                    <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                    <label class="top">Phone* <input type="tel" name="phone" placeholder="1231231234" required></label>
+                    <label class="top">Business Name* <input type="text" name="business" required></label>
+
+                </fieldset>
+
+                <fieldset>
+                    <label class="top">Membership Level
+                        <select name="subject">
+                            <option value="">Please Select &#9662;</option>
+                        <option value="np">NP Membership</option>
+                        <option value="bronze">Bronze Membership</option>
+                        <option value="silver">Silver Membership</option>
+                        <option value="gold">Gold Membership</option>
+                        </select>
+                    </label>
+
+                </fieldset>
+
+                <fieldset>
+                    <label class="top">Business Description
+                        <input type="text" name="description">
+                    </label>
+                </fieldset>
+
+                <input type="submit" value = "Submit Document" class="submitBtn">
+
+            </form>
+
+
+
     </main>
     <footer>
         <div class="upperfooter">
