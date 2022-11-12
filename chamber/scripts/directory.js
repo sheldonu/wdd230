@@ -1,31 +1,41 @@
-const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
+const requestURL = 'https://sheldonu.github.io/wdd230/chamber/data.json';
 const cards = document.querySelector('.cards');
 
-function displayProphets(prophet) {
-    // Create elements to add to the document
+function displayProphets(company) {
+    
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
     let portrait = document.createElement('img');
-    let birthdate = document.createElement('h3');
-    let pob = document.createElement('h3');
+    let address = document.createElement('h3');
+    let phone = document.createElement('h3');
+    let website = document.createElement('a');
+    let member = document.createElement('h3')
   
-    // Change the textContent property of the h2 element to contain the prophet's full name
-    h2.textContent = prophet.name + ' ' + prophet.lastname;
-    birthdate.textContent = 'Date of Birth:' + ' ' + prophet.birthdate
-    pob.textContent = 'Place of Birth:' + ' ' + prophet.birthplace
+    
+    h2.textContent = company.name;
+    address.textContent = company.address
+    phone.textContent = company.phonenumber
+    website.textContent = company.websiteurl
+    member.textContent = company.membershiplevel
+
   
-    // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
-    portrait.setAttribute('src', prophet.imageurl);
-    portrait.setAttribute('alt', 'Portait of ' + prophet.name + ' ' + prophet.lastname + ' - ' + prophet.order + 'th Latter-day President');
+    
+    portrait.setAttribute('src', company.imageurl);
+    portrait.setAttribute('alt', company.imageurl);
     portrait.setAttribute('loading', 'lazy');
+    website.setAttribute('href', company.websiteurl)
   
-    // Add/append the section(card) with the h2 element
-    card.appendChild(h2);
-    card.appendChild(birthdate);
-    card.appendChild(pob);
+    
     card.appendChild(portrait);
+    card.appendChild(h2);
+    card.appendChild(address);
+    card.appendChild(phone);
+    card.appendChild(website);
+    card.appendChild(member);
+    
+    
   
-    // Add/append the existing HTML div with the cards class with the section(card)
+    
     document.querySelector('div.cards').appendChild(card);
   }
 
@@ -34,8 +44,8 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    const prophets = jsonObject['prophets'];
-    console.table(jsonObject);  // temporary checking for valid response and data parsing
-    prophets.forEach(displayProphets);
+    const companies = jsonObject['companies'];
+    console.table(jsonObject); 
+    companies.forEach(displayProphets);
     
   });
