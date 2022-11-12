@@ -16,7 +16,6 @@ function displayProphets(company) {
     address.textContent = company.address
     phone.textContent = company.phonenumber
     website.textContent = company.websiteurl
-    member.textContent = company.membershiplevel
 
   
     
@@ -31,7 +30,6 @@ function displayProphets(company) {
     card.appendChild(address);
     card.appendChild(phone);
     card.appendChild(website);
-    card.appendChild(member);
     
     
   
