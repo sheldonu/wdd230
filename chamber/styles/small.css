@@ -477,3 +477,19 @@ form label.top input:required:valid {
     grid-row: 2/7;
     grid-column: 1/4;
 }
+
+figure img {
+    width: 50%;
+}
+
+figcaption {
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
+
+.weather span {
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+}
