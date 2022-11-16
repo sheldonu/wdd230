@@ -370,7 +370,7 @@ form label.top input:required:valid {
   }
   
   .cards {
-    grid-row: 1/7;
+    grid-row: 2/7;
     grid-column: 1/4;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -451,4 +451,29 @@ form label.top input:required:valid {
     color: beige;
   }
 
+  .menu {
+    grid-row: 1;
+    grid-column: 1/4;
+    text-align: center;
+    height: 10px;
+  }
+
+  .list {
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    grid-row: 2/7;
+    grid-column: 1/4;
+}
   
+  @media (min-width: 700px) {
+	.list section img {
+		display: block;
+	}
+}
+
+.grid {
+    grid-row: 2/7;
+    grid-column: 1/4;
+}
