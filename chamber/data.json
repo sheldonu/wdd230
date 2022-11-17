@@ -6,7 +6,7 @@
             "phonenumber": "(480) 835-8938",
             "websiteurl": "https://www.ibcaz.com/",
             "imageurl": "./images/ibc-pic.jfif",
-            "membershiplevel": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+            "membershiplevel": ""
         },
         {
             "name": "Fleming Complete",
@@ -14,7 +14,7 @@
             "phonenumber": "(480) 237-0765",
             "websiteurl": "https://flemingcomplete.com/",
             "imageurl": "./images/fc-pic.jfif",
-            "membershiplevel": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+            "membershiplevel": ""
         },
         {
             "name": "Liberty Title Co",
@@ -29,7 +29,7 @@
             "address": "4566 E Inverness Ave, Mesa, AZ 85206",
             "phonenumber": "(480) 507-2080",
             "websiteurl": "http://www.rowlandcompanies.com/",
-            "imageurl": "pic of house",
+            "imageurl": "./images/rc-pic.png",
             "membershiplevel": ""
         },
         {
@@ -37,7 +37,7 @@
             "address": "930 W Birchwood Ave, Mesa, AZ 85210",
             "phonenumber": "(480) 821-4414",
             "websiteurl": "https://faulknerfence.com/",
-            "imageurl": "pic of patio",
+            "imageurl": "./images/f-pic.jpg",
             "membershiplevel": ""
         },
         {
@@ -45,7 +45,7 @@
             "address": "1436 W 6th Ave, Mesa, AZ 85202",
             "phonenumber": "(480) 833-8483",
             "websiteurl": "none",
-            "imageurl": "pic of roof",
+            "imageurl": "./images/br-pic.png",
             "membershiplevel": ""
         },
         {
@@ -53,7 +53,7 @@
             "address": "4610 E Ingram St, Mesa, AZ 85205",
             "phonenumber": "(480) 813-5655",
             "websiteurl": "https://www.homesteadvinyl.com/",
-            "imageurl": "pic of yard",
+            "imageurl": "./images/hf-pic.jpg",
             "membershiplevel": ""
         },
         {
@@ -61,7 +61,7 @@
             "address": "3544 E Southern Ave, Mesa, AZ 85204",
             "phonenumber": "(480) 878-7119",
             "websiteurl": "none",
-            "imageurl": "pic of truck",
+            "imageurl": "./images/mc-pic.jpg",
             "membershiplevel": ""
         },
         {
@@ -69,7 +69,7 @@
             "address": "540 S Drew St, Mesa, AZ 85210",
             "phonenumber": "(480) 448-2244",
             "websiteurl": "https://arizonafoam.com/",
-            "imageurl": "pic of blocks",
+            "imageurl": "./images/fs-pic.jpg",
             "membershiplevel": ""
         }
     ]
