@@ -16,8 +16,6 @@ function displayProphets(company) {
     address.textContent = company.address
     phone.textContent = company.phonenumber
     website.textContent = company.websiteurl
-
-  
     
     portrait.setAttribute('src', company.imageurl);
     website.setAttribute('href', company.websiteurl)

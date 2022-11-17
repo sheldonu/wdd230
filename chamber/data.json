@@ -5,7 +5,7 @@
             "address": "1150 N Country Club Dr, Mesa, AZ 85201",
             "phonenumber": "(480) 835-8938",
             "websiteurl": "https://www.ibcaz.com/",
-            "imageurl": "https://media-exp1.licdn.com/dms/image/C560BAQF07XAV5Y05OQ/company-logo_200_200/0/1608590142691?e=2159024400&v=beta&t=YupogZ9_MxNbJ06piZv_cZHaza7mq_BP_eTqZHIXWhw",
+            "imageurl": "./images/ibc-pic.jfif",
             "membershiplevel": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
         },
         {
@@ -13,7 +13,7 @@
             "address": "1736 S Nevada Way, Mesa, AZ 85204",
             "phonenumber": "(480) 237-0765",
             "websiteurl": "https://flemingcomplete.com/",
-            "imageurl": "pic of f and e letters",
+            "imageurl": "./images/fc-pic.jpg",
             "membershiplevel": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
         },
         {
