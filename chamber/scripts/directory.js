@@ -20,8 +20,6 @@ function displayProphets(company) {
   
     
     portrait.setAttribute('src', company.imageurl);
-    portrait.setAttribute('alt', company.imageurl);
-    portrait.setAttribute('loading', 'lazy');
     website.setAttribute('href', company.websiteurl)
   
     
