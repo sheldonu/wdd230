@@ -174,5 +174,28 @@
     .discoverpics img:hover {
         box-shadow: 0 0 10px beige;
     }
+
+    .cgrid {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .cfd {
+        text-align: center;
+        background-color: #01295F;
+        color: beige;
+    }
+
+    .csd img{
+        box-shadow: 0 0 10px #01295F;
+    }
+
+    .ch1, .ch2, .ch3 {
+        color: beige;
+        text-shadow: none;
+    }
     
     }
