@@ -46,6 +46,64 @@
             <img src="./images/chamber-pic.jpg" alt="pic of building">
         </div>
 
+        <div>
+        <h1>Get in touch</h1>
+            <form method="get" action="thankyou.html">
+                <fieldset>
+                    <label class="top">First Name* <input type="text" name="fname" required></label>
+                    <label class="top">Last Name* <input type="text" name="lname" required></label>
+                    <label class="top">Business Position <input type="text" name="position"></label>
+                    <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                    <label class="top">Phone* <input type="tel" name="phone" placeholder="1231231234" required></label>
+                    <label class="top">Business Name* <input type="text" name="business" required></label>
+
+                </fieldset>
+
+                <fieldset>
+                    <label class="top">Membership Level
+                        <select name="subject">
+                            <option value="">Please Select &#9662;</option>
+                        <option value="np">NP Membership</option>
+                        <option value="bronze">Bronze Membership</option>
+                        <option value="silver">Silver Membership</option>
+                        <option value="gold">Gold Membership</option>
+                        </select>
+                    </label>
+
+                </fieldset>
+
+                <fieldset>
+                    <label class="top">Business Description
+                        <input type="text" name="description">
+                    </label>
+                </fieldset>
+
+                <input type="submit" value = "Submit Document" class="submitBtn">
+
+            </form>
+        </div>
+
+        <div class="contactlast">
+            <h1>Mesa Chamber of Commerce</h1>
+            <p>165 N. Centennial Way Mesa, AZ 85201</p>
+            <h1>Board of Directors</h1>
+            <p>Sally Harrison</p>
+            <p>President/CEO</p>
+            <p>(480)969-1307, ext. 26</p>
+            <hr>
+            <p>Bob Nelson</p>
+            <p>Director of Communications</p>
+            <p>(480)969-1307, ext. 25</p>
+            <hr>
+            <p>Terrie Gardner</p>
+            <p>Director of Events and Sponsorships</p>
+            <p>(480)969-1307, ext. 29</p>
+            <hr>
+            <p>Theresa DiBona</p>
+            <p>Director of First Impressions</p>
+            <p>(480)969-1307, ext. 10</p>
+        </div>
+
     </main>
     <footer>
         <div class="upperfooter">
@@ -64,6 +122,6 @@
         <p>&copy 2022 Mesa Chamber | Sheldon Uchytil | WDD 230 Project | </p>
         <div id="lastModified"></div>
     </footer>
-    
+    <script src="./scripts/script.js"></script>
 </body>
 </html>

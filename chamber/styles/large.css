@@ -203,7 +203,7 @@
         margin-bottom: 100px;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
+        grid-template-rows: 1fr 2fr;
     }
 
     .cfd {
@@ -230,5 +230,12 @@
     .spotlights a {
         color: purple;
         text-shadow: none;
+    }
+
+    .contactlast {
+        text-align: center;
+        background-color: #01295F;
+        color: white;
+        font-size: larger;
     }
 }
