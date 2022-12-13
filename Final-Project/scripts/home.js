@@ -108,7 +108,20 @@ async function apiiFetch() {
 
 
 
-const requestURL = 'https://brotherblazzard.github.io/canvas-content/fruit.json';
+const requestURL = 'https://sheldonu.github.io/wdd230/Final-Project/project.json';
+
+const fruit = document.querySelector('.fruit')
+
+fetch(requestURL)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (jsonObject) {
+    console.table(jsonObject); 
+});
+
+
+fruit.innerHTML = project[0].name
 
 
 
