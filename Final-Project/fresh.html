@@ -18,45 +18,51 @@
                     <li><a class="menu" href="#"></a></li>
                     <li><a href="homepage.html">Home</a></li>
                     <li><a href="./fresh.html">Fresh</a></li>
-                    <li><a href="#">About Us</a></li>
+                    <li><a href="./aboutus.html">About Us</a></li>
                     <li><a>(333)-333-4444</a></li>
+                    <li><a>1416 E. Mongrul Dr. Carlsbad, CA 92008</a></li>
                 </ul>
             </nav>
         </header>
-        <main class="join-grid">
-            <h1>Joining Mesa Commerce</h1>
+        <main class="fresh-grid">
+            <h1>Create Order</h1>
+                <form action="">
                     <fieldset>
-                        <label class="top">First Name* <input type="text" name="fname" required></label>
-                        <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-                        <label class="top">Phone* <input type="tel" name="phone" placeholder="1231231234" required></label>
-                        <label class="top">Business Name* <input type="text" name="business" required></label>
+                        <label class="top">First Name <input id="firstname" type="text" name="fname"></label>
+                        <label class="top">Email <input id="email" type="email" name="email" placeholder="someone@gmail.com"></label>
+                        <label class="top">Phone <input id="phone" type="phone" name="phone" placeholder="1231231234"></label>
     
                     </fieldset>
     
                     <fieldset>
                         <label class="top">Available Fruit
-                            <select name="subject">
-                                <option value="">Please Select &#9662;</option>
-                            <option class="fruit" value=""></option>
-                            <option value="bronze">Bronze Membership</option>
-                            <option value="silver">Silver Membership</option>
-                            <option value="gold">Gold Membership</option>
-                            </select>
+                            <input id="ff" type="text" name="fruit" list="exampleList">
+                            <datalist id="exampleList">
+                                <div class="cards"></div>
+                            </datalist>
+                            
                         </label>
     
                     </fieldset>
     
                     <fieldset>
                         <label class="top">Special Instructions
-                            <input type="text" name="description">
+                            <input id="desc" type="text" name="description">
                         </label>
                     </fieldset>
     
-                    <input type="submit" value = "Submit Document" class="submitBtn">
-    
+                    <input class="btn" type="button" value="submit" onclick="showInput();"><br/>
+                    <p class="dbox"><span id='display'></span></p>
+                </form>
+                
+
+
+                
         </main>
         <footer>
             <h3 class="date"></h3>
+
+            <a class="resource" href="./resource.html">Reference Page</a>
             
             <div class="social">
                 <a href="https://facebook.com" target="_blank">

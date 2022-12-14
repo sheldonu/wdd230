@@ -108,23 +108,46 @@ async function apiiFetch() {
 
 
 
-const requestURL = 'https://sheldonu.github.io/wdd230/Final-Project/project.json';
-
-const fruit = document.querySelector('.fruit')
-
-fetch(requestURL)
-  .then(function (response) {
-    return response.json();
-  })
-  .then(function (jsonObject) {
-    console.table(jsonObject); 
-});
-
-
-fruit.innerHTML = project[0].name
 
 
 
+  const requestURL = 'https://sheldonu.github.io/wdd230/Final-Project/project.json';
+  const cards = document.querySelector('.cards');
+
+
+  function displayProphets(fruit) {
+    
+    
+    let option = document.createElement('option');
+    
+      
+      option.innerHTML = fruit.name;
+      
+    
+      
+      
+      
+    
+      
+      document.querySelector('div.cards').appendChild(option);
+    }
+  
+  fetch(requestURL)
+    .then(function (response) {
+      return response.json();
+    })
+    .then(function (jsonObject) {
+      const fruits = jsonObject['fruits'];
+      console.table(jsonObject); 
+      fruits.forEach(displayProphets);
+      
+      
+    });
+
+    function showInput() {
+        document.getElementById('display').innerHTML = 
+                    'First name is: ' + document.getElementById("firstname").value + '  ' + 'Email is: ' + document.getElementById('email').value + '   ' + 'Phone number is: ' + document.getElementById('phone').value + '   ' +  'Choice of Fruit is: ' + document.getElementById('ff').value + '   ' + 'Your instruction for us is: ' + document.getElementById('desc').value + '   ' + 'Order date is: ' + month + "/" + day + "/" + year;
+    }
 
 
 
